@@ -1,5 +1,5 @@
 import { vec3 } from 'gl-matrix';
-import { metaData } from '..';
+import * as metaData from '../metaData';
 import { Point2, Point3 } from '../types';
 
 /**

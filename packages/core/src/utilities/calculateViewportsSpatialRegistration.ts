@@ -1,7 +1,7 @@
 import { vec3, mat4 } from 'gl-matrix';
 import { IStackViewport } from '../types';
 import spatialRegistrationMetadataProvider from './spatialRegistrationMetadataProvider';
-import { metaData } from '..';
+import * as metaData from '../metaData';
 
 /**
  * Defines the allowed difference as a percent between the unit normals before

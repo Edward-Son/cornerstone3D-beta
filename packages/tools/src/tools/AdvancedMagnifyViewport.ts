@@ -13,7 +13,7 @@ import {
 import { ToolGroupManager, state } from '../store';
 import { debounce } from '../utilities';
 import { ToolModeChangedEventType } from '../types/EventTypes';
-import { segmentation } from '..';
+import * as segmentation from '../stateManagement/segmentation';
 import { EventTypes, IToolGroup } from '../types';
 import {
   AnnotationTool,
